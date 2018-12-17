@@ -20,6 +20,7 @@ class App
         session_start();
         self::$app=Registry::instance();
         $this->getParams();
+        new ErrorHandler();
 
 
     }
@@ -30,7 +31,7 @@ class App
             foreach ($params as $k =>$v){
                 self::$app->setProperty($k,$v);
             }
-            var_dump(self::$app);
+            //var_dump(self::$app);
         }
 
     }

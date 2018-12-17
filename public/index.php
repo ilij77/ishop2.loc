@@ -7,5 +7,7 @@ require_once LIBS .'/function.php';
 new \ishop\App();
 
 
-debug(\ishop\App::$app->getProperties());
+//debug(\ishop\App::$app->getProperties());
 //var_dump(new \ishop\App());
+
+throw new Exception('Страница не найдена', 500);
