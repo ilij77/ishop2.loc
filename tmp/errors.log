@@ -157,3 +157,6 @@
 [2018-12-18 03:21:17] Текст ошибки:Метод app\controllers\MainController::indexAction  не найден|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:42 
 ==========
+[2018-12-19 00:35:16] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:50 
+==========

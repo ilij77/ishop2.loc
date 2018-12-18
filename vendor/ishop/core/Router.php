@@ -30,7 +30,7 @@ class Router
     {
         if (self::matchRoute($url)){
             $controller='app\controllers\\'. self::$route['prefix'].self::$route['controller'].'Controller';
-            debug($controller);
+            //debug($controller);
 
             if (class_exists($controller)){
                 $controllerObject=new $controller(self::$route);
@@ -73,7 +73,7 @@ class Router
                 $route['controller']=self::upperCamelCase($route['controller']);
 
                 self::$route=$route;
-                debug($route);
+                //debug($route);
                 return true;
             }
 
