@@ -160,3 +160,9 @@
 [2018-12-19 00:35:16] Текст ошибки:Страница не найдена|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:50 
 ==========
+[2018-12-19 01:46:42] Текст ошибки:syntax error, unexpected '}'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php| Строка:45 
+==========
+[2018-12-19 01:58:23] Текст ошибки:Не найден шаблон default|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php| Строка:59 
+==========

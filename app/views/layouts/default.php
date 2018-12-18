@@ -7,8 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-
-<h1 Шаблон DEFAULT </h1>
+<body>
+<h1> Шаблон DEFAULT </h1>
+<?= $content;?>
 
 </body>
 </html>
