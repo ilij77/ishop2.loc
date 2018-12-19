@@ -33,7 +33,7 @@ class MainController extends AppController
         $names=['Andrei','John'];
         $cashe=Cashe::instance();
          //$cashe->set('test',$names);
-         $cashe->delete('test');
+         //$cashe->delete('test');
 
         $data=$cashe->get('test');
 
