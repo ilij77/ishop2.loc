@@ -12,6 +12,7 @@ namespace app\controllers;
 
 
 use ishop\App;
+use ishop\Cashe;
 
 class MainController extends AppController
 {
@@ -21,12 +22,25 @@ class MainController extends AppController
 
     public function indexAction()
     {
+
+        $posts=\RedBeanPHP\R::findAll('test');
+        //debug($posts);
+
         $this->setMeta(App::$app->getProperty('shop_name'),'Описание','Ключевики');
 
         $name='John';
         $age=30;
         $names=['Andrei','John'];
-       $this->set(compact('name','age','names'));
+        $cashe=Cashe::instance();
+         //$cashe->set('test',$names);
+         $cashe->delete('test');
+
+        $data=$cashe->get('test');
+
+      debug($data);
+
+
+       $this->set(compact('name','age','names','posts'));
     }
 
 }

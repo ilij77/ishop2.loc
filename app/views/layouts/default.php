@@ -12,5 +12,14 @@
 <h1> Шаблон DEFAULT </h1>
 <?= $content;?>
 
+
+<?php
+$logs = \RedBeanPHP\R::getDatabaseAdapter()
+    ->getDatabase()
+    ->getLogger();
+
+print_r( $logs->grep( 'SELECT' ) );
+?>
+
 </body>
 </html>
