@@ -9,6 +9,8 @@
 namespace ishop\base;
 
 
+use ishop\Db;
+
 abstract class Model
 {
     private $attributes=[];
@@ -17,7 +19,7 @@ abstract class Model
 
     public function  __construct()
     {
-        
+        Db::instance();
     }
 
 }

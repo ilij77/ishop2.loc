@@ -6,6 +6,8 @@
 
     }
   },
-  "require":{}
+  "require":{
+    "gabordemooij/redbean": "dev-master"
+  }
 
 }
