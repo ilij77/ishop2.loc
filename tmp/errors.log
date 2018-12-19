@@ -166,3 +166,42 @@
 [2018-12-19 01:58:23] Текст ошибки:Не найден шаблон default|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php| Строка:59 
 ==========
+[2018-12-19 12:58:37] Текст ошибки:Страница не найдена|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\ishop2.loc\vendor\ishop\core\Router.php| Строка:51 
+==========
+[2018-12-19 13:05:31] Текст ошибки:Страница не найдена|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\ishop2.loc\vendor\ishop\core\Router.php| Строка:52 
+==========
+[2018-12-19 13:06:37] Текст ошибки:Страница не найдена|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\ishop2.loc\vendor\ishop\core\Router.php| Строка:52 
+==========
+[2018-12-19 13:10:25] Текст ошибки:Страница не найдена|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\ishop2.loc\vendor\ishop\core\Router.php| Строка:52 
+==========
+[2018-12-19 13:10:28] Текст ошибки:Страница не найдена|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\ishop2.loc\vendor\ishop\core\Router.php| Строка:52 
+==========
+[2018-12-19 13:10:51] Текст ошибки:Страница не найдена|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\ishop2.loc\vendor\ishop\core\Router.php| Строка:52 
+==========
+[2018-12-19 15:36:37] Текст ошибки:Страница не найдена|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\ishop2.loc\vendor\ishop\core\Router.php| Строка:52 
+==========
+[2018-12-19 15:49:23] Текст ошибки:Метод app\controllers\PageController::indexAction  не найден|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
+[2018-12-19 15:50:09] Текст ошибки:Метод app\controllers\PageController::viewAction  не найден|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
+[2018-12-19 15:50:31] Текст ошибки:Метод app\controllers\PageController::viewAction  не найден|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
+[2018-12-19 15:51:05] Текст ошибки:Метод app\controllers\PageController::viewAction  не найден|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
+[2018-12-19 15:52:24] Текст ошибки:Метод app\controllers\PageController::indexAction  не найден|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
+[2018-12-19 15:52:52] Текст ошибки:Не найден вид C:\OpenServer\OSPanel\domains\ishop2.loc\ishop2.loc/app/views/Page/index.php|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\ishop2.loc\vendor\ishop\core\base\View.php| Строка:54 
+==========
