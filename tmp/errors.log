@@ -175,3 +175,24 @@
 [2018-12-20 02:51:43] Текст ошибки:Страница не найдена|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
 ==========
+[2018-12-21 00:58:29] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2018-12-21 01:48:04] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2018-12-21 01:48:32] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2018-12-21 01:55:44] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2018-12-21 02:07:13] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2018-12-21 02:15:30] Текст ошибки:syntax error, unexpected 'echo' (T_ECHO)|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\main\index.php| Строка:67 
+==========
+[2018-12-21 02:17:36] Текст ошибки:syntax error, unexpected ':'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\main\index.php| Строка:67 
+==========
