@@ -23,24 +23,9 @@ class MainController extends AppController
     public function indexAction()
     {
 
-        $posts=\RedBeanPHP\R::findAll('test');
-        //debug($posts);
 
-        $this->setMeta(App::$app->getProperty('shop_name'),'Описание','Ключевики');
+        $this->setMeta('Главная страница', 'Описание', 'Ключевики');
 
-        $name='John';
-        $age=30;
-        $names=['Andrei','John'];
-        $cashe=Cashe::instance();
-         //$cashe->set('test',$names);
-         //$cashe->delete('test');
-
-        $data=$cashe->get('test');
-
-      debug($data);
-
-
-       $this->set(compact('name','age','names','posts'));
     }
 
 }

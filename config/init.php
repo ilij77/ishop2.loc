@@ -8,7 +8,7 @@ define("CORE",ROOT . '/vendor/ishop/core');
 define("LIBS",ROOT . '/vendor/ishop/core/libs');
 define("CASHE",ROOT . '/tmp/cashe');
 define("CONF",ROOT . '/config');
-define("LAYOUT",'default');
+define("LAYOUT",'watches');
 
 //$app_path="http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";
 //$app_path=preg_replace("#[^/]+$#",'',$app_path);
