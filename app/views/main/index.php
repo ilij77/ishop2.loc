@@ -64,10 +64,11 @@
                             </h4>
                         </div>
                         <div class="srch">
+
                             <?php if ($hit->old_price):  ?>
-                            <span><?php echo round((1-$hit->price / $hit->old_price)*100,1);?>%</span>
+                            <span>Sale <?php echo round((1-$hit->price / $hit->old_price)*100,1);?>%</span>
                             <?php  endif;?>
-                        </div>Sale
+                        </div>
                     </div>
                 </div>
 
