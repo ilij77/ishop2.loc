@@ -28,6 +28,8 @@ class MainController extends AppController
 
 
 
+
+
         $this->setMeta('Главная страница', 'Описание', 'Ключевики');
         $this->set(compact('brands','hits'));
 

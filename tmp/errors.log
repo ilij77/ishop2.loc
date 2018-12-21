@@ -196,3 +196,9 @@
 [2018-12-21 02:17:36] Текст ошибки:syntax error, unexpected ':'|
          Файл: C:\OSPanel\domains\ishop2.loc\app\views\main\index.php| Строка:67 
 ==========
+[2018-12-21 03:05:52] Текст ошибки:SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.currnce' doesn't exist|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2018-12-21 03:11:29] Текст ошибки:Too few arguments to function ishop\Registry::getProperty(), 0 passed in C:\OSPanel\domains\ishop2.loc\app\controllers\AppController.php on line 25 and exactly 1 expected|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Registry.php| Строка:23 
+==========
