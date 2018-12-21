@@ -26,7 +26,7 @@ class AppController extends Controller
        App::$app->setProperty('currencies',Currency::getCurrencies());
 
         App::$app->setProperty('currency',Currency::getCurrency(App::$app->getProperty('currencies')));
-debug(App::$app->getProperties());
+//debug(App::$app->getProperties());
 
     }
 

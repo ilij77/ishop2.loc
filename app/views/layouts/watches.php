@@ -34,9 +34,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <div class="drop">
                     <div class="box">
                         <select tabindex="4" class="dropdown drop">
-                            <option value="" class="label">Dollar :</option>
-                            <option value="1">Dollar</option>
-                            <option value="2">Euro</option>
+                            <?php new \app\widgets\currency\Currency(); ?>
                         </select>
                     </div>
                     <div class="box1">
