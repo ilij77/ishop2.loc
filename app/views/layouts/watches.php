@@ -33,7 +33,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="col-md-6 top-header-left">
                 <div class="drop">
                     <div class="box">
-                        <select tabindex="4" class="dropdown drop">
+                        <select id="currency" tabindex="4" class="dropdown drop">
                             <?php new \app\widgets\currency\Currency(); ?>
                         </select>
                     </div>
@@ -318,5 +318,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
     });
 </script>
+<script src="js/main.js"></script>
 </body>
 </html>
