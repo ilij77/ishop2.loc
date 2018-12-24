@@ -13,6 +13,7 @@ use app\models\AppModel;
 use app\widgets\currency\Currency;
 use ishop\App;
 use ishop\base\Controller;
+use ishop\Cashe;
 
 class AppController extends Controller
 {
@@ -27,6 +28,21 @@ class AppController extends Controller
 
         App::$app->setProperty('currency',Currency::getCurrency(App::$app->getProperty('currencies')));
 //debug(App::$app->getProperties());
+        App::$app->setProperty('cats',self::cacheCategory());
+        //debug(App::$app->getProperties());
+
+    }
+
+
+
+    public static function cacheCategory(){
+        $cache=Cashe::instance();
+        $cats=$cache->get('cats');
+        if (!$cats){
+            $cats=\RedBeanPHP\R::getAssoc("SELECT*FROM category");
+            $cache->set('cats',$cats);
+        }
+        return $cats;
 
     }
 
