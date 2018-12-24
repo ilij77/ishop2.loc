@@ -9,7 +9,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
     <?=$this->getMeta();?>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="megamenu/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="megamenu/css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
+
 
     <!--Custom-Theme-files-->
     <!--theme-style-->
@@ -22,7 +25,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
     <!--start-menu-->
 
-    <link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+
 
 </head>
 <body>
@@ -74,8 +77,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
         <div class="header">
             <div class="col-md-9 header-left">
+                <div class="menu-container">
                 <div class="menu">
                     <?php new \app\widgets\menu\Menu(['tpl'=>WWW.'/menu/menu.php']); ?>
+                </div>
                 </div>
 
 <!--                <div class="top-nav">-->
@@ -323,5 +328,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     });
 </script>
 <script src="js/main.js"></script>
+<script src="megamenu/js/megamenu.js"></script>
 </body>
 </html>
