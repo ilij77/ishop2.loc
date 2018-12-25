@@ -409,3 +409,9 @@
 [2018-12-25 03:02:34] Текст ошибки:Контроллер app\controllers\CartController не найден|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:49 
 ==========
+[2018-12-26 01:03:27] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2018-12-26 01:50:40] Текст ошибки:syntax error, unexpected '$gallery' (T_VARIABLE)|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php| Строка:51 
+==========

@@ -9,6 +9,8 @@
 namespace app\controllers;
 
 
+use app\models\Product;
+
 class ProductController extends AppController
 {
     public function viewAction()
@@ -30,14 +32,28 @@ class ProductController extends AppController
 
 
         //запись в куки запрашиваемого товара
+       $p_model=new Product();
+       $p_model->setRecentlyViewed($product->id);
+
         //просмотренные товары
+        $r_viewed=$p_model->getRecentlyViewed();
+
+        //debug($r_viewed);
+        $recentlyViewed=null;
+        if ($r_viewed){
+            $recentlyViewed=\RedBeanPHP\R::find('product','id IN ('.\RedBeanPHP\R::genSlots($r_viewed).') LIMIT 3',$r_viewed);
+        }
+        //debug($recentlyViewed);
+
+
+
         //галерея
         $gallery=\RedBeanPHP\R::findAll('gallery','product_id=?',[$product->id]);
         //debug($gallery);
 
         //модификации
         $this->setMeta($product->title,$product->description,$product->keywords);
-        $this->set(compact('product','related','gallery'));
+        $this->set(compact('product','related','gallery','recentlyViewed'));
 
         
     }
