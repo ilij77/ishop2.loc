@@ -32,9 +32,12 @@ class ProductController extends AppController
         //запись в куки запрашиваемого товара
         //просмотренные товары
         //галерея
+        $gallery=\RedBeanPHP\R::findAll('gallery','product_id=?',[$product->id]);
+        //debug($gallery);
+
         //модификации
         $this->setMeta($product->title,$product->description,$product->keywords);
-        $this->set(compact('product','related'));
+        $this->set(compact('product','related','gallery'));
 
         
     }
