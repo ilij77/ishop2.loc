@@ -36,7 +36,7 @@
                     <?php $cats=\ishop\App::$app->getProperty('cats'); ?>
                     <div class="col-md-7 single-top-right">
                         <div class="single-para simpleCart_shelfItem">
-                            <h2><?= $product->title?>/h2>
+                            <h2><?=$product->title;?>/h2>
                             <div class="star-on">
                                 <ul class="star-footer">
                                     <li><a href="#"><i> </i></a></li>
@@ -130,50 +130,36 @@
                         </li>
                     </ul>
                 </div>
+                <?php if ($related):?>
                 <div class="latestproducts">
                     <div class="product-one">
+                    <h3>С этим товаром также покупают</h3>
+                        <?php foreach ($related as $item ):?>
                         <div class="col-md-4 product-left p-left">
                             <div class="product-main simpleCart_shelfItem">
-                                <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-1.png" alt="" /></a>
+                                <a href="product/<?=$item['alias']?>" class="mask"><img class="img-responsive zoom-img" src="images/<?= $item['img']?>" alt="" /></a>
                                 <div class="product-bottom">
-                                    <h3>Smart Watches</h3>
-                                    <p>Explore Now</p>
-                                    <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
+                                    <h3><a href="product/<?=$item['alias'];?>"></a><?=$item['title'];?></h3>
+                                    <p>Explore now</p>
+                                    <h4><a class="item_add" href="cart/add?id=<?=$item['related_id'];?>" data-id="<?=$item['id'];?>"><i></i></a> <span class=" item_price"><?=$curr['symbol_left']; ?> <?= $item['price']*$curr['value'];?><?=$curr['symbol_right']; ?></span></h4>
+                                    <?php if ($item['old_price']):  ?>
+                                        <small><del><?=$curr['symbol_left']; ?><?= $item['old_price']*$curr['value'];?><?=$curr['symbol_right']; ?></del></small>
+
+                                    <?php  endif;?>
                                 </div>
                                 <div class="srch">
-                                    <span>-50%</span>
+                                    <?php if ($item['old_price']):  ?>
+                                        <span>Sale <?php echo round((1-$item['price'] / $item['old_price'])*100,1);?>%</span>
+                                    <?php  endif;?>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 product-left p-left">
-                            <div class="product-main simpleCart_shelfItem">
-                                <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-2.png" alt="" /></a>
-                                <div class="product-bottom">
-                                    <h3>Smart Watches</h3>
-                                    <p>Explore Now</p>
-                                    <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
-                                </div>
-                                <div class="srch">
-                                    <span>-50%</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 product-left p-left">
-                            <div class="product-main simpleCart_shelfItem">
-                                <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-3.png" alt="" /></a>
-                                <div class="product-bottom">
-                                    <h3>Smart Watches</h3>
-                                    <p>Explore Now</p>
-                                    <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
-                                </div>
-                                <div class="srch">
-                                    <span>-50%</span>
-                                </div>
-                            </div>
-                        </div>
+                        <?php endforeach;?>
+
                         <div class="clearfix"></div>
                     </div>
                 </div>
+                <?php endif;?>
             </div>
             <div class="col-md-3 single-right">
                 <div class="w_sidebar">

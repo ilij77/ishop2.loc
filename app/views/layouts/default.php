@@ -18,7 +18,7 @@ $logs = \RedBeanPHP\R::getDatabaseAdapter()
     ->getDatabase()
     ->getLogger();
 
-print_r( $logs->grep( 'SELECT' ) );
+debug( $logs->grep( 'SELECT' ) );
 ?>
 
 </body>
