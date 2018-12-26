@@ -418,3 +418,33 @@
 [2018-12-26 02:29:52] Текст ошибки:syntax error, unexpected '}', expecting ';'|
          Файл: C:\OSPanel\domains\ishop2.loc\app\models\Breadcrumbs.php| Строка:37 
 ==========
+[2018-12-27 00:09:20] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2018-12-27 00:23:03] Текст ошибки:Контроллер app\controllers\CartController не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:49 
+==========
+[2018-12-27 00:23:16] Текст ошибки:Контроллер app\controllers\CartController не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:49 
+==========
+[2018-12-27 00:24:29] Текст ошибки:Контроллер app\controllers\CartController не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:49 
+==========
+[2018-12-27 00:25:20] Текст ошибки:Контроллер app\controllers\CartController не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:49 
+==========
+[2018-12-27 00:26:41] Текст ошибки:Контроллер app\controllers\CartController не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:49 
+==========
+[2018-12-27 01:02:05] Текст ошибки:syntax error, unexpected ')', expecting ']'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\CartController.php| Строка:15 
+==========
+[2018-12-27 01:02:10] Текст ошибки:syntax error, unexpected ')', expecting ']'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\CartController.php| Строка:15 
+==========
+[2018-12-27 01:02:52] Текст ошибки:syntax error, unexpected ')', expecting ']'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\CartController.php| Строка:15 
+==========
+[2018-12-27 01:04:34] Текст ошибки:Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/Cart/add.php|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php| Строка:54 
+==========
