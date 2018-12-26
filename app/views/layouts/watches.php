@@ -99,6 +99,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!--bottom-header-->
 <div class="content">
+    <?php debug($_SESSION); //session_destroy(); ?>
     <?=$content?>
 </div>
 <!--information-starts-->
