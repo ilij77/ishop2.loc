@@ -175,7 +175,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script>
 
 <script src="js/jquery-1.11.0.min.js"></script>
-<script src="js/simpleCart.min.js"> </script>
+
 
 <!--dropdown-->
 <script src="js/jquery.easydropdown.js"></script>

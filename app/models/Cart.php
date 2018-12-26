@@ -28,6 +28,7 @@ if ($mod){
 }
 if (isset($_SESSION['cart'][$ID])){
     $_SESSION['cart'][$ID]['qty']+=$qty;
+
 }else{
     $_SESSION['cart'][$ID]=[
         'qty'=>$qty,
@@ -37,11 +38,11 @@ if (isset($_SESSION['cart'][$ID])){
         'img'=>$product->img,
 
     ];
-    $_SESSION['cart.qty']=isset($_SESSION['cart.qty']) ? $_SESSION['cart.qty']+$qty: $qty;
-    $_SESSION['cart.sum']=isset($_SESSION['cart.sum'])?$_SESSION['cart.sum']+$qty*$price*$_SESSION['cart.currency']['value']:$qty*$price*$_SESSION['cart.currency']['value'];
+
 
 }
-
+        $_SESSION['cart.qty']=isset($_SESSION['cart.qty']) ? $_SESSION['cart.qty']+$qty: $qty;
+        $_SESSION['cart.sum']=isset($_SESSION['cart.sum'])?$_SESSION['cart.sum']+$qty*$price*$_SESSION['cart.currency']['value']:$qty*$price*$_SESSION['cart.currency']['value'];
 
     }
 
