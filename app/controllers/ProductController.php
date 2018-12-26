@@ -56,8 +56,12 @@ class ProductController extends AppController
         //debug($gallery);
 
         //модификации
+
+        $mods=\RedBeanPHP\R::find('modification','product_id=?',[$product->id]);
+        //debug($mods);
+
         $this->setMeta($product->title,$product->description,$product->keywords);
-        $this->set(compact('product','related','gallery','recentlyViewed','breadcrumbs'));
+        $this->set(compact('product','related','gallery','recentlyViewed','breadcrumbs','mods'));
 
         
     }
