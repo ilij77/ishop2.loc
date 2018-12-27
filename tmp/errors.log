@@ -487,3 +487,9 @@
 [2018-12-27 03:40:17] Текст ошибки:Страница не найдена|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
 ==========
+[2018-12-27 11:06:28] Текст ошибки:Страница не найдена|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2018-12-27 11:07:20] Текст ошибки:Метод app\controllers\CartController::viewAction  не найден|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
