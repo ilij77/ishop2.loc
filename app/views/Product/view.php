@@ -38,7 +38,7 @@
                     <?php $cats=\ishop\App::$app->getProperty('cats'); ?>
                     <div class="col-md-7 single-top-right">
                         <div class="single-para simpleCart_shelfItem">
-                            <h2><?=$product->title;?>/h2>
+                            <h2><?=$product->title;?></h2>
                             <div class="star-on">
                                 <ul class="star-footer">
                                     <li><a href="#"><i> </i></a></li>

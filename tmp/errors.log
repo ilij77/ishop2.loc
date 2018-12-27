@@ -493,3 +493,33 @@
 [2018-12-27 11:07:20] Текст ошибки:Метод app\controllers\CartController::viewAction  не найден|
          Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
 ==========
+[2018-12-27 11:36:21] Текст ошибки:Страница не найдена|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2018-12-27 12:44:26] Текст ошибки:Страница не найдена|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2018-12-27 12:50:20] Текст ошибки:Метод app\controllers\CartController::showAction  не найден|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
+[2018-12-27 12:50:29] Текст ошибки:Метод app\controllers\CartController::showAction  не найден|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
+[2018-12-27 12:53:10] Текст ошибки:Метод app\controllers\CartController::showAction  не найден|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
+[2018-12-27 12:53:16] Текст ошибки:Метод app\controllers\CartController::showAction  не найден|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
+[2018-12-27 12:56:00] Текст ошибки:Метод app\controllers\CartController::showAction  не найден|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
+[2018-12-27 14:09:17] Текст ошибки:Не найден вид C:\OpenServer\OSPanel\domains\ishop2.loc/app/views/Cart/delete.php|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php| Строка:54 
+==========
+[2018-12-27 14:10:49] Текст ошибки:Не найден вид C:\OpenServer\OSPanel\domains\ishop2.loc/app/views/Cart/delete.php|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php| Строка:54 
+==========
+[2018-12-27 14:11:16] Текст ошибки:syntax error, unexpected '?'|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\app\controllers\CartController.php| Строка:42 
+==========

@@ -3079,3 +3079,6 @@ ul.tag-men {
 	height: 50px;
 
 }
+.del-item{
+	cursor: pointer;
+}
