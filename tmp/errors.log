@@ -601,3 +601,6 @@
 [2018-12-28 01:01:10] Текст ошибки:Метод app\controllers\SearchController::indexAction  не найден|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
 ==========
+[2018-12-28 01:07:35] Текст ошибки:syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\SearchController.php| Строка:33 
+==========
