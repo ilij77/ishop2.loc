@@ -17,6 +17,7 @@ class Cart extends AppModel
 if (!isset($_SESSION['cart.currency'])){
     $_SESSION['cart.currency']=App::$app->getProperty('currency');
 }
+       // debug ($_SESSION['cart.currency']['value']);
 if ($mod){
     $ID="{$product->id}-{$mod->id}";
     $title="{$product->title} ({$mod->title})";
@@ -54,6 +55,27 @@ if (isset($_SESSION['cart'][$ID])){
         unset($_SESSION['cart'][$id]);
 
     }
+
+    public static function recalc($curr){
+        if(isset($_SESSION['cart.currency'])){
+            if($_SESSION['cart.currency']['base']){
+                $_SESSION['cart.sum'] *= $curr->value;
+            }else{
+                $_SESSION['cart.sum'] = $_SESSION['cart.sum'] / $_SESSION['cart.currency']['value'] * $curr->value;
+            }
+            foreach($_SESSION['cart'] as $k => $v){
+                if($_SESSION['cart.currency']['base']){
+                    $_SESSION['cart'][$k]['price'] *= $curr->value;
+                }else{
+                    $_SESSION['cart'][$k]['price'] = $_SESSION['cart'][$k]['price'] / $_SESSION['cart.currency']['value'] * $curr->value;
+                }
+            }
+            foreach($curr as $k => $v){
+                $_SESSION['cart.currency'][$k] = $v;
+            }
+        }
+    }
+
 
 
 
