@@ -1827,7 +1827,7 @@ h3.ghj {
 	margin-top:3%;
 }
 .table tr th {
-    width: 50%;
+    width: 20%;
 }
 /*--end-typo--*/
 /*--starts-register--*/
@@ -3074,4 +3074,8 @@ ul.tag-men {
 	margin-top: 3em;
 	margin-right: 10px;
 	float: left;
+}
+#cart table img{
+	height: 50px;
+
 }
