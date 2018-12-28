@@ -613,3 +613,12 @@
 [2018-12-28 11:06:25] Текст ошибки:Страница не найдена|
          Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
 ==========
+[2018-12-28 14:21:46] Текст ошибки:SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3  -- keep-cache' at line 1|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2018-12-28 14:23:17] Текст ошибки:SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3  -- keep-cache' at line 1|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2018-12-28 14:45:22] Текст ошибки:syntax error, unexpected '/'|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\app\controllers\CategoryController.php| Строка:43 
+==========

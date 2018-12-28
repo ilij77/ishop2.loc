@@ -44,6 +44,11 @@
                         <?php endforeach;?>
 
                         <div class="clearfix"></div>
+                        <div class="text-center">
+                            <p><?=count($products)?> товаров из <?=$total?> </p>
+                            <?php if ($pagination->countPages>1) echo $pagination;?>
+                        </div>
+
                     </div>
                     <?php else:?>
                     <h3>В этой категории товаров пока нет...</h3>

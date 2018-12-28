@@ -24,10 +24,6 @@ class CategoryController extends AppController
         if (!$category){
            throw  new \Exception('Страница не найдена',404);
         }
-        $page=isset($_GET['page'])?$_GET['page']:1;
-        $perpage=App::$app->getProperty('pagination');
-        $pagination=new Pagination($page,$perpage,20);
-        echo $pagination;
 
 
 
@@ -40,10 +36,24 @@ class CategoryController extends AppController
         $ids=$cat_model->getIds($category->id);
         $ids=!$ids? $category->id : $ids.$category->id;
         //debug($ids);
-        $products=\RedBeanPHP\R::findAll('product',"category_id IN ($ids)");
+
+        //Пагинация
+        $page=isset($_GET['page'])?$_GET['page']:1;
+        $perpage=App::$app->getProperty('pagination');
+       //debug($perpage);
+        $total=\RedBeanPHP\R::count('product',"category_id IN ($ids)");
+        $pagination=new Pagination($page,$perpage,$total);
+        $start=$pagination->getStart();
+        //echo $pagination;
+
+        $products=\RedBeanPHP\R::findAll('product',"category_id IN ($ids) LIMIT $start,$perpage");
         //debug($products);
+
+
+
         $this->setMeta($category->title,$category->description,$category->keywords);
-        $this->set(compact('products','breadcrumbs'));
+        $this->set(compact('products','breadcrumbs','pagination','total'));
+
 
 
 
