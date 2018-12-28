@@ -13,20 +13,22 @@ use app\models\User;
 
 class UserController extends AppController
 {
+
+
+
+
     public function signupAction(){
-
-        if (!empty($_POST)){
-             $user=new User();
-            $data=$_POST;
-            debug($data);
+        if(!empty($_POST)){
+            $user = new User();
+            $data = $_POST;
+            //debug($data);
             $user->load($data);
-            debug($user);
+            //debug($user);
             die;
-        }
+        }}
 
-        $this->setMeta('Регистрация');
 
-    }
+
     public function loginAction(){
 
     }

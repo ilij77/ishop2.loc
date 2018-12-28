@@ -622,3 +622,21 @@
 [2018-12-28 14:45:22] Текст ошибки:syntax error, unexpected '/'|
          Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\app\controllers\CategoryController.php| Строка:43 
 ==========
+[2018-12-29 00:29:22] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2018-12-29 00:33:39] Текст ошибки:syntax error, unexpected 'public' (T_PUBLIC)|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\UserController.php| Строка:24 
+==========
+[2018-12-29 00:36:21] Текст ошибки:Call to undefined method app\models\User::load()|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\UserController.php| Строка:21 
+==========
+[2018-12-29 00:36:57] Текст ошибки:syntax error, unexpected 'public' (T_PUBLIC)|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\UserController.php| Строка:26 
+==========
+[2018-12-29 00:37:27] Текст ошибки:Call to undefined method app\models\User::load()|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\UserController.php| Строка:21 
+==========
+[2018-12-29 00:37:58] Текст ошибки:Call to undefined method app\models\User::load()|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\UserController.php| Строка:31 
+==========
