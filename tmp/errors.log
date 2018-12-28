@@ -604,3 +604,9 @@
 [2018-12-28 01:07:35] Текст ошибки:syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)|
          Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\SearchController.php| Строка:33 
 ==========
+[2018-12-28 03:02:12] Текст ошибки:SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')  -- keep-cache' at line 1|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2018-12-28 03:06:52] Текст ошибки:SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')  -- keep-cache' at line 1|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
