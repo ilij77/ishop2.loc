@@ -24,8 +24,25 @@ class UserController extends AppController
             //debug($data);
             $user->load($data);
             //debug($user);
-            die;
-        }}
+            if (!$user->validate($data) || !$user->checkUnique()){
+                $user->getErrors();
+
+                //debug($user->errors);
+            }else{
+                $user->attributes['password']=password_hash($user->attributes['password'],PASSWORD_DEFAULT);
+                if ($user->save('user')){
+                $_SESSION['success']='Вы успешно зарегистрированы';
+
+                }else{
+                    $_SESSION['error']='Ошибка регистрации';
+                }
+
+
+            }redirect();
+
+        }
+        $this->setMeta('Регистрация');
+    }
 
 
 

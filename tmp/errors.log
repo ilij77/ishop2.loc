@@ -640,3 +640,27 @@
 [2018-12-29 00:37:58] Текст ошибки:Call to undefined method app\models\User::load()|
          Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\UserController.php| Строка:31 
 ==========
+[2018-12-29 01:29:03] Текст ошибки:syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\layouts\watches.php| Строка:137 
+==========
+[2018-12-29 01:29:27] Текст ошибки:syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\layouts\watches.php| Строка:141 
+==========
+[2018-12-29 01:29:30] Текст ошибки:syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\layouts\watches.php| Строка:141 
+==========
+[2018-12-29 01:30:06] Текст ошибки:syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\layouts\watches.php| Строка:141 
+==========
+[2018-12-29 01:55:44] Текст ошибки:SQLSTATE[HY000]: General error: 1364 Field 'login' doesn't have a default value|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2018-12-29 01:56:36] Текст ошибки:SQLSTATE[HY000]: General error: 1364 Field 'login' doesn't have a default value|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2018-12-29 02:10:17] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'password' cannot be null|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2018-12-29 02:23:16] Текст ошибки:syntax error, unexpected ')', expecting ']'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\models\User.php| Строка:38 
+==========

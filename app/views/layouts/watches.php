@@ -129,6 +129,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <?php //session_destroy()?>
 <div class="content">
 
+   <div class="container">
+       <div class="row">
+           <div class="col-md-12">
+               <?php if (isset($_SESSION['error'])): ?>
+               <div class="allert alert-danger">
+                   <?php echo($_SESSION['error']); unset($_SESSION['error']);?>
+               </div>
+               <?php else:?>
+               <?php if (isset($_SESSION['success'])): ?>
+               <div class="allert alert-success">
+                <?php echo ($_SESSION['success']); unset($_SESSION['success']);?>
+                  </div>
+                   <?php endif;?>
+               <?php endif;?>
+           </div>
+       </div>
+   </div>
+
     <?=$content?>
 </div>
 <!--information-starts-->
