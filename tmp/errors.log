@@ -610,3 +610,6 @@
 [2018-12-28 03:06:52] Текст ошибки:SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')  -- keep-cache' at line 1|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
 ==========
+[2018-12-28 11:06:25] Текст ошибки:Страница не найдена|
+         Файл: C:\OpenServer\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
