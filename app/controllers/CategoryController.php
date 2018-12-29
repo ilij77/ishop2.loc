@@ -54,6 +54,11 @@ class CategoryController extends AppController
         $this->setMeta($category->title,$category->description,$category->keywords);
         $this->set(compact('products','breadcrumbs','pagination','total'));
 
+        if ($this->isAjax()){
+            debug($_GET);
+            die;
+        }
+
 
 
 
