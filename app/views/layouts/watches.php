@@ -232,7 +232,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
     </div>
 </div>
-
+<div class="preloader"><img src="images/ring.svg" alt=""></div>
 
 <?php $curr=\ishop\App::$app->getProperty('currency'); ?>
 <script>

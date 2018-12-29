@@ -685,3 +685,6 @@
 [2018-12-29 17:35:07] Текст ошибки:Class 'app\models\App' not found|
          Файл: C:\OSPanel\domains\ishop2.loc\app\models\Order.php| Строка:46 
 ==========
+[2018-12-30 00:19:20] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
