@@ -682,3 +682,6 @@
 [2018-12-29 16:17:46] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
 ==========
+[2018-12-29 17:35:07] Текст ошибки:Class 'app\models\App' not found|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\models\Order.php| Строка:46 
+==========
