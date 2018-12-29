@@ -5,6 +5,7 @@ namespace app\controllers;
 
 
 use app\models\Cart;
+use app\models\User;
 
 class CartController extends AppController
 {
@@ -58,4 +59,38 @@ class CartController extends AppController
         $this->loadView('cart_modal');
 
     }
+    public function viewAction(){
+        $this->setMeta('Корзина');
+
+    }
+    public function checkoutAction(){
+        if (!empty($_POST)){
+            if (!User::checkAuth()){
+                if(!empty($_POST)){
+                    $user = new User();
+                    $data = $_POST;
+                    //debug($data);
+                    $user->load($data);
+                    //debug($user);
+                    if (!$user->validate($data) || !$user->checkUnique()){
+                        $user->getErrors();
+                        $_SESSION['form_data']=$data;
+                        redirect();
+
+                        //debug($user->errors);
+                    }else{
+                        $user->attributes['password']=password_hash($user->attributes['password'],PASSWORD_DEFAULT);
+                        if (!$user_id=$user->save('user')){
+                            $_SESSION['error']='Ошибка регистрации';
+                            redirect();
+                        }
+                    }
+                }
+                $data['user_id']=isset($user_id)?$user_id:$_SESSION['user']['id'];
+                $data['note']=!empty($_POST['note'])?$_POST['note']: '';
+                $user_email=isset($_SESSION['user']['email']) ?
+
+                    $_SESSION['user']['email']:$_POST['email']; }
+    }
+}
 }

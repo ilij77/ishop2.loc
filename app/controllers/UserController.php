@@ -70,4 +70,5 @@ class UserController extends AppController
         redirect();
 
     }
+
 }
