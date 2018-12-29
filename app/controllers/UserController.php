@@ -26,6 +26,7 @@ class UserController extends AppController
             //debug($user);
             if (!$user->validate($data) || !$user->checkUnique()){
                 $user->getErrors();
+                $_SESSION['form_data']=$data;
 
                 //debug($user->errors);
             }else{
