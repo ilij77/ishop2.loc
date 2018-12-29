@@ -10,4 +10,5 @@ return array(
     'app\\' => array($baseDir . '/app'),
     'Valitron\\' => array($vendorDir . '/vlucas/valitron/src/Valitron'),
     'RedBeanPHP\\' => array($vendorDir . '/gabordemooij/redbean/RedBeanPHP'),
+    'Egulias\\EmailValidator\\' => array($vendorDir . '/egulias/email-validator/EmailValidator'),
 );
