@@ -5,6 +5,7 @@ namespace app\controllers;
 
 
 use app\models\Cart;
+use app\models\Order;
 use app\models\User;
 
 class CartController extends AppController
@@ -88,9 +89,11 @@ class CartController extends AppController
                 }
                 $data['user_id']=isset($user_id)?$user_id:$_SESSION['user']['id'];
                 $data['note']=!empty($_POST['note'])?$_POST['note']: '';
-                $user_email=isset($_SESSION['user']['email']) ?
-
-                    $_SESSION['user']['email']:$_POST['email']; }
+                $user_email=isset($_SESSION['user']['email']) ?$_SESSION['user']['email']:$_POST['email']; }
+                $order_id=Order::saveOrder($data);
+               Order::mailOrder($order_id,$user_email);
     }
+    redirect();
 }
+
 }

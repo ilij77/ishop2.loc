@@ -11,13 +11,16 @@ namespace app\models;
 
 class Order extends AppModel
 {
-    public function saveOrder($data){
+    public static function saveOrder($data){
         
     }
 
-    public function saveOrderProduct($order_id),$usrr
-    {
-        public function save:
+    public static function saveOrderProduct($order_id){
+
+    }
+
+    public static function mailOrder($orler_id,$user_email){
+
     }
 
 }

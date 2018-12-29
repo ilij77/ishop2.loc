@@ -676,3 +676,6 @@
 [2018-12-29 04:02:02] Текст ошибки:Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/Cart/view.php|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php| Строка:54 
 ==========
+[2018-12-29 15:37:46] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
