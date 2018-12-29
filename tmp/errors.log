@@ -667,3 +667,6 @@
 [2018-12-29 03:09:53] Текст ошибки:syntax error, unexpected ')', expecting ';'|
          Файл: C:\OSPanel\domains\ishop2.loc\app\views\User\signup.php| Строка:54 
 ==========
+[2018-12-29 03:51:47] Текст ошибки:Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/User/logout.php|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php| Строка:54 
+==========
