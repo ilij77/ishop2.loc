@@ -11,6 +11,7 @@ namespace app\controllers;
 
 use app\models\Breadcrumbs;
 use app\models\Category;
+use app\widgets\filter\Filter;
 use ishop\App;
 use ishop\libs\Pagination;
 
@@ -41,23 +42,38 @@ class CategoryController extends AppController
         $page=isset($_GET['page'])?$_GET['page']:1;
         $perpage=App::$app->getProperty('pagination');
        //debug($perpage);
-        $total=\RedBeanPHP\R::count('product',"category_id IN ($ids)");
+
+        $sql_part='';
+
+//Filtry
+
+        if (!empty($_GET['filter'])){
+            $filter=Filter::getFilter();
+            $sql_part="AND id IN  (SELECT product_id FROM attribute_product WHERE attr_id IN ($filter))";
+        }
+
+
+
+
+        $total=\RedBeanPHP\R::count('product',"category_id IN ($ids) $sql_part");
         $pagination=new Pagination($page,$perpage,$total);
         $start=$pagination->getStart();
         //echo $pagination;
 
-        $products=\RedBeanPHP\R::findAll('product',"category_id IN ($ids) LIMIT $start,$perpage");
+        $products=\RedBeanPHP\R::findAll('product',"category_id IN ($ids) $sql_part LIMIT $start,$perpage");
         //debug($products);
+
+        if ($this->isAjax()){
+
+            $this->loadView('filter',compact('products','total','pagination'));
+        }
 
 
 
         $this->setMeta($category->title,$category->description,$category->keywords);
         $this->set(compact('products','breadcrumbs','pagination','total'));
 
-        if ($this->isAjax()){
-            debug($_GET);
-            die;
-        }
+
 
 
 
