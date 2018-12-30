@@ -56,10 +56,6 @@ class CategoryController extends AppController
             $sql_part="AND id IN  (SELECT product_id FROM attribute_product WHERE attr_id IN ($filter)
             GROUP BY product_id HAVING COUNT(product_id)=$cnt)";
         }
-
-
-
-
         $total=\RedBeanPHP\R::count('product',"category_id IN ($ids) $sql_part");
         $pagination=new Pagination($page,$perpage,$total);
         $start=$pagination->getStart();
