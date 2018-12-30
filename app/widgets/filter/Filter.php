@@ -56,7 +56,7 @@ class Filter
         return \RedBeanPHP\R::getAssoc('SELECT id,title FROM attribute_group');
     }
 
-    protected function  getAttrs(){
+    protected static function  getAttrs(){
         $data=\RedBeanPHP\R::getAssoc('SELECT * FROM attribute_value');
         $attrs=[];
         foreach ($data as $k=>$v){
@@ -71,6 +71,26 @@ class Filter
             $filter=trim($filter,',');
          }
          return $filter;
+    }
+
+    public static function getCountGroups($filter){
+        $filters=explode(',',$filter);
+        $cache=Cashe::instance();
+        $attrs=$cache->get('filter_attrs');
+        if (!$attrs){
+            $attrs=self::getAttrs();
+        }
+        $data=[];
+        foreach ($attrs as $key=>$item){
+          foreach ($item as $k=>$v){
+             if (in_array($k,$filters)){
+                 $data[]=$key;
+                 break;
+             }
+          }
+          }
+return count($data);
+
     }
 
 }

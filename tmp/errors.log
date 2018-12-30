@@ -691,3 +691,15 @@
 [2018-12-30 01:52:24] Текст ошибки:Страница не найдена|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
 ==========
+[2018-12-30 04:23:59] Текст ошибки:syntax error, unexpected '}'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\CategoryController.php| Строка:54 
+==========
+[2018-12-30 04:43:48] Текст ошибки:SQLSTATE[42000]: Syntax error or access violation: 1630 FUNCTION ishop2.COUNT does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2018-12-30 04:45:15] Текст ошибки:SQLSTATE[42000]: Syntax error or access violation: 1630 FUNCTION ishop2.COUNT does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2018-12-30 04:48:35] Текст ошибки:SQLSTATE[42000]: Syntax error or access violation: 1630 FUNCTION ishop2.COUNT does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
