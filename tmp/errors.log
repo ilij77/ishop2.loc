@@ -1342,3 +1342,9 @@
 [2018-12-31 03:10:18] Текст ошибки:Call to a member function getDatabase() on null|
          Файл: C:\OSPanel\domains\ishop2.loc\app\views\layouts\admin.php| Строка:382 
 ==========
+[2018-12-31 18:35:21] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2018-12-31 18:36:42] Текст ошибки:Метод app\controllers\UserController::adminAction  не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
