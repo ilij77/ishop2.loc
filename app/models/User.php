@@ -51,7 +51,7 @@ public function login($isAdmin=false){
     $password=!empty(trim($_POST['password']))?trim($_POST['password']):null;
     if ($login&&$password){
         if ($isAdmin){
-            $user=\RedBeanPHP\R::findOne('user',"login=? AND role+'admin",[$login]);
+            $user=\RedBeanPHP\R::findOne('user',"login=? AND role='admin'",[$login]);
         }else{
             $user=\RedBeanPHP\R::findOne('user',"login=? ",[$login]);
         }
