@@ -1348,3 +1348,42 @@
 [2018-12-31 18:36:42] Текст ошибки:Метод app\controllers\UserController::adminAction  не найден|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
 ==========
+[2018-12-31 19:29:04] Текст ошибки:Контроллер app\controllers\admin\OrderController не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:49 
+==========
+[2018-12-31 19:35:13] Текст ошибки:Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Order/index.php|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php| Строка:54 
+==========
+[2018-12-31 19:35:17] Текст ошибки:Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Order/index.php|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php| Строка:54 
+==========
+[2018-12-31 19:35:21] Текст ошибки:Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Order/index.php|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php| Строка:54 
+==========
+[2018-12-31 22:10:23] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2018-12-31 22:45:09] Текст ошибки:SQLSTATE[42000]: Syntax error or access violation: 1140 In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'ishop2.order.id'; this is incompatible with sql_mode=only_full_group_by|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2018-12-31 22:45:34] Текст ошибки:SQLSTATE[42000]: Syntax error or access violation: 1140 In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'ishop2.order.id'; this is incompatible with sql_mode=only_full_group_by|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2018-12-31 22:45:36] Текст ошибки:SQLSTATE[42000]: Syntax error or access violation: 1140 In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'ishop2.order.id'; this is incompatible with sql_mode=only_full_group_by|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2018-12-31 22:45:39] Текст ошибки:SQLSTATE[42000]: Syntax error or access violation: 1140 In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'ishop2.order.id'; this is incompatible with sql_mode=only_full_group_by|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2018-12-31 22:51:22] Текст ошибки:SQLSTATE[42000]: Syntax error or access violation: 1327 Undeclared variable: 5|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2018-12-31 22:54:07] Текст ошибки:Class 'R' not found|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\OrderController.php| Строка:24 
+==========
+[2018-12-31 23:22:22] Текст ошибки:Cannot use object of type ishop\libs\Pagination as array|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Order\index.php| Строка:52 
+==========
+[2019-01-09 00:28:43] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
