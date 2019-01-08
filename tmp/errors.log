@@ -1387,3 +1387,9 @@
 [2019-01-09 00:28:43] Текст ошибки:Страница не найдена|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
 ==========
+[2019-01-09 01:04:09] Текст ошибки:Метод app\controllers\admin\OrderController::viewAction  не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
+[2019-01-09 02:05:21] Текст ошибки:syntax error, unexpected '$qty' (T_VARIABLE)|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Order\view.php| Строка:77 
+==========
