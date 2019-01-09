@@ -1396,3 +1396,18 @@
 [2019-01-09 02:57:02] Текст ошибки:Метод app\controllers\admin\UserController::editAction  не найден|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
 ==========
+[2019-01-09 12:33:34] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-09 13:08:36] Текст ошибки:Метод app\controllers\admin\OrderController::deleteAction  не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
+[2019-01-09 13:20:14] Текст ошибки:Call to undefined method app\controllers\admin\OrderController::data()|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\OrderController.php| Строка:59 
+==========
+[2019-01-09 13:21:29] Текст ошибки:Call to undefined method app\controllers\admin\OrderController::data()|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\OrderController.php| Строка:59 
+==========
+[2019-01-09 13:22:11] Текст ошибки:Call to undefined function app\controllers\admin\data()|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\OrderController.php| Строка:59 
+==========

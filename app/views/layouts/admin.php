@@ -18,6 +18,7 @@
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="my.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -352,6 +353,22 @@
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
+
+
+            <?php if (isset($_SESSION['error'])): ?>
+                <div class="allert alert-danger">
+                    <?php echo($_SESSION['error']); unset($_SESSION['error']);?>
+                </div>
+            <?php else:?>
+                <?php if (isset($_SESSION['success'])): ?>
+                    <div class="allert alert-success">
+                        <?php echo ($_SESSION['success']); unset($_SESSION['success']);?>
+                    </div>
+                <?php endif;?>
+            <?php endif;?>
+
+
+
     <?= $content ?>
     </div>
     <!-- /.content-wrapper -->
@@ -381,6 +398,7 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- AdminLTE App -->
     <script src="dist/js/adminlte.min.js"></script>
+    <script src="my.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
     $.widget.bridge('uibutton', $.ui.button);
