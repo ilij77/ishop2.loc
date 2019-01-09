@@ -31,6 +31,14 @@ class AppModel extends Model
         return \RedBeanPHP\R::store($tbl);
 
     }
+    public function update($table,$id){
+       $bean=\RedBeanPHP\R::load($table,$id);
+        foreach ($this->attributes as $name=>$value ){
+            $bean->$name=$value;
+        }
+        return \RedBeanPHP\R::store($bean);
+
+    }
 
 
     public function validate($data){
