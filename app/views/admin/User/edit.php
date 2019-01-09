@@ -60,7 +60,53 @@
                 </form>
             </div>
 
-            <h3>Заказы пользователя</h3>
+            <h3>Заказы пользователя <?=$user->login;?></h3>
+            <?php if ($orders):?>
+            <div class="box">
+                <div class="box-body">
+                <div class="table-responsive">
+
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                             <th>Статус</th>
+                            <th>Сумма</th>
+                            <th>Дата создания</th>
+                            <th>Дата изменения</th>
+                            <th>Действие</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <?php foreach ($orders as $order):?>
+                            <?php $class=$order['status']? 'success':'' ?>
+                            <tr class="<?=$class;?>">
+                                <td><?=$order['id'];?></td>
+                                <td><?=$order['status']?'Завершен':'Новый';?></td>
+                                <td><?=$order['sum'];?> <?=$order['currency'];?></td>
+                                <td><?=$order['date'];?></td>
+                                <td><?=$order['update_at'];?></td>
+                                <td><a  href="<?= ADMIN;?>/order/view?id=<?=$order['id'];?>"><i class="fa fa-fw fa-eye"></i></a>
+
+                                </td>
+
+                            </tr>
+                        <?php endforeach;?>
+
+                        </tbody>
+                    </table>
+
+                </div>
+                </div>
+                </div>
+            <?php else: ?>
+               <div class="box">
+                   <div class="box-body">
+                       <p class="text-danger">Пользователь пока ничего не заказывал...</p>
+                   </div>
+               </div>
+
+            <?php endif;?>
         </div>
 
 
