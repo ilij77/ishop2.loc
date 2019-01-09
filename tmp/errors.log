@@ -1393,3 +1393,6 @@
 [2019-01-09 02:05:21] Текст ошибки:syntax error, unexpected '$qty' (T_VARIABLE)|
          Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Order\view.php| Строка:77 
 ==========
+[2019-01-09 02:57:02] Текст ошибки:Метод app\controllers\admin\UserController::editAction  не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
