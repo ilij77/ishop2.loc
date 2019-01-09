@@ -84,5 +84,9 @@ class UserController extends AppController
         $this->setMeta('Редактирование профиля пользователя');
         $this->set(compact('user','orders'));
     }
+    public function addAction(){
+
+        $this->setMeta('Новый пользователь');
+    }
 
 }

@@ -1462,3 +1462,6 @@
 [2019-01-10 02:18:53] Текст ошибки:Too few arguments to function app\models\AppModel::validate(), 0 passed in C:\OSPanel\domains\ishop2.loc\app\controllers\admin\UserController.php on line 62 and exactly 1 expected|
          Файл: C:\OSPanel\domains\ishop2.loc\app\models\AppModel.php| Строка:44 
 ==========
+[2019-01-10 02:34:03] Текст ошибки:Метод app\controllers\admin\UserController::addAction  не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
