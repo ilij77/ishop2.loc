@@ -1411,3 +1411,9 @@
 [2019-01-09 13:22:11] Текст ошибки:Call to undefined function app\controllers\admin\data()|
          Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\OrderController.php| Строка:59 
 ==========
+[2019-01-09 13:42:19] Текст ошибки:Контроллер app\controllers\admin\CategoryController не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:49 
+==========
+[2019-01-09 13:45:46] Текст ошибки:Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Category/index.php|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php| Строка:54 
+==========
