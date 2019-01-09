@@ -1447,3 +1447,18 @@
 [2019-01-10 00:17:58] Текст ошибки:Метод app\controllers\admin\UserController::indexAction  не найден|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
 ==========
+[2019-01-10 02:10:46] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\AppController.php| Строка:38 
+==========
+[2019-01-10 02:14:11] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\AppController.php| Строка:38 
+==========
+[2019-01-10 02:15:43] Текст ошибки:Too few arguments to function app\models\AppModel::validate(), 0 passed in C:\OSPanel\domains\ishop2.loc\app\controllers\admin\UserController.php on line 62 and exactly 1 expected|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\models\AppModel.php| Строка:44 
+==========
+[2019-01-10 02:18:50] Текст ошибки:Too few arguments to function app\models\AppModel::validate(), 0 passed in C:\OSPanel\domains\ishop2.loc\app\controllers\admin\UserController.php on line 62 and exactly 1 expected|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\models\AppModel.php| Строка:44 
+==========
+[2019-01-10 02:18:53] Текст ошибки:Too few arguments to function app\models\AppModel::validate(), 0 passed in C:\OSPanel\domains\ishop2.loc\app\controllers\admin\UserController.php on line 62 and exactly 1 expected|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\models\AppModel.php| Строка:44 
+==========

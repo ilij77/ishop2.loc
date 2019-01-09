@@ -48,6 +48,29 @@ class UserController extends AppController
 
     }
     public function editAction(){
+
+        if (!empty($_POST)){
+            $id=$this->getRequestID(false);
+            $user=new \app\models\admin\User();
+            $data=$_POST;
+            //debug($data);
+            $user->load($data);
+            if (!$user->attributes['password']){
+                unset($user->attributes['password']);
+            }else{
+                $user->attributes['password']=password_hash($user->attributes['password'],PASSWORD_DEFAULT);
+            }
+            if (!$user->validate($data)||!$user->checkUnique()){
+                $user->getErrors();
+              redirect();
+
+            }
+            if ($user->update('user',$id)){
+                $_SESSION['success']='Изменения сохранены';
+            }
+            redirect();
+        }
+
         $user_id=$this->getRequestID();
         $user=\RedBeanPHP\R::load('user',$user_id);
 
@@ -55,6 +78,8 @@ class UserController extends AppController
  JOIN `order_product` ON `order`.`id` = `order_product`.`order_id`
  WHERE user_id={$user_id}
   GROUP BY `order`.`id` ORDER BY `order`.`status`, `order`.`id`");
+
+
 
         $this->setMeta('Редактирование профиля пользователя');
         $this->set(compact('user','orders'));

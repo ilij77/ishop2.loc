@@ -6,7 +6,7 @@
     <ol class="breadcrumb">
         <li><a href="<?=ADMIN;?>"><i class="fa fa-dashboard"></i> Главная</a></li>
         <li><a href="<?=ADMIN;?>/user"> Список пользователей</a></li>
-        <li class="active">Редактирование ползователя</li>
+        <li class="active">Редактирование пользователя</li>
     </ol>
 </section>
 
