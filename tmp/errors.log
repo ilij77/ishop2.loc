@@ -1441,3 +1441,9 @@
 [2019-01-09 18:53:07] Текст ошибки:syntax error, unexpected '}'|
          Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\CacheController.php| Строка:38 
 ==========
+[2019-01-10 00:17:04] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-10 00:17:58] Текст ошибки:Метод app\controllers\admin\UserController::indexAction  не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
