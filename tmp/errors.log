@@ -1417,3 +1417,6 @@
 [2019-01-09 13:45:46] Текст ошибки:Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Category/index.php|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php| Строка:54 
 ==========
+[2019-01-09 15:43:12] Текст ошибки:Метод app\controllers\admin\CategoryController::editAction  не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
