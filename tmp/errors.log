@@ -1438,3 +1438,6 @@
 [2019-01-09 17:21:27] Текст ошибки:SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'parent_id' at row 1|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
 ==========
+[2019-01-09 18:53:07] Текст ошибки:syntax error, unexpected '}'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\CacheController.php| Строка:38 
+==========
