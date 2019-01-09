@@ -1420,3 +1420,21 @@
 [2019-01-09 15:43:12] Текст ошибки:Метод app\controllers\admin\CategoryController::editAction  не найден|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
 ==========
+[2019-01-09 17:17:05] Текст ошибки:SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'parent_id' at row 1|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-09 17:18:28] Текст ошибки:SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'parent_id' at row 1|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-09 17:18:48] Текст ошибки:SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'parent_id' at row 1|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-09 17:20:56] Текст ошибки:SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'parent_id' at row 1|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-09 17:21:22] Текст ошибки:SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'parent_id' at row 1|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-09 17:21:27] Текст ошибки:SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'parent_id' at row 1|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========

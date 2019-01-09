@@ -69,7 +69,7 @@ class Menu
 
     protected function output(){
         $attrs='';
-        if (!empty($attrs)){
+        if (!empty($this->attrs)){
             foreach ($this->attrs as $k=>$v){
                 $attrs.="$k='$v'";
             }

@@ -9,6 +9,7 @@
 namespace app\controllers\admin;
 
 
+use app\models\AppModel;
 use app\models\Category;
 use ishop\Cashe;
 
@@ -44,13 +45,21 @@ class CategoryController extends AppController
         if (!empty($_POST)){
             $category=new Category();
             $data=$_POST;
+            //debug($_POST);
             $category->load($data);
             if (!$category->validate($data)){
                 $category->getErrors();
                 redirect();
             }
-            if ($id=$category->save())
+            if ($id=$category->save('category')){
+                $alias=AppModel::createAlias('category','alias',$data['title'],$id);
+                $cat=\RedBeanPHP\R::load('category', $id);
+                $cat->alias=$alias;
+                \RedBeanPHP\R::store($cat);
+                $_SESSION['success']='Категория добавлена';
 
+            };
+            redirect();
 
         }
 
