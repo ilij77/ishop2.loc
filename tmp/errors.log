@@ -1465,3 +1465,6 @@
 [2019-01-10 02:34:03] Текст ошибки:Метод app\controllers\admin\UserController::addAction  не найден|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
 ==========
+[2019-01-10 02:46:37] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
