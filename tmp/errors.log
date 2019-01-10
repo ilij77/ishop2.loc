@@ -1468,3 +1468,9 @@
 [2019-01-10 02:46:37] Текст ошибки:Страница не найдена|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
 ==========
+[2019-01-11 00:20:46] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-11 00:24:35] Текст ошибки:Метод app\controllers\admin\ProductController::addAction  не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
+==========
