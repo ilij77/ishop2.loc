@@ -101,6 +101,7 @@
                             </label>
 
                         </div>
+                        <?php new \app\widgets\filter\Filter(null,WWW.'/filter/admin_filter_tpl.php');?>
 
 
 

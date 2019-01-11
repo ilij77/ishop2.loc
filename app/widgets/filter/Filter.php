@@ -16,11 +16,14 @@ class Filter
     public $groups;
     public $attrs;
     public $tpl;
+    public $filter;
 
-    public function __construct()
+    public function __construct($filter=null,$tpl=null)
     {
-        $this->tpl=__DIR__.'/filter_tpl.php';
+        $this->filter=$filter;
+        $this->tpl=$tpl ?:__DIR__.'/filter_tpl.php';
         $this->run();
+
 
     }
 

@@ -1618,3 +1618,30 @@
 [2019-01-12 01:02:21] Текст ошибки:Страница не найдена|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
 ==========
+[2019-01-12 01:49:32] Текст ошибки:Too few arguments to function app\widgets\filter\Filter::__construct(), 0 passed in C:\OSPanel\domains\ishop2.loc\app\views\Category\view.php on line 61 and exactly 2 expected|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\widgets\filter\Filter.php| Строка:21 
+==========
+[2019-01-12 01:49:32] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 01:49:32] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 01:49:32] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 01:49:42] Текст ошибки:Too few arguments to function app\widgets\filter\Filter::__construct(), 0 passed in C:\OSPanel\domains\ishop2.loc\app\views\Category\view.php on line 61 and exactly 2 expected|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\widgets\filter\Filter.php| Строка:21 
+==========
+[2019-01-12 01:49:42] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 01:49:42] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 01:49:42] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 02:09:04] Текст ошибки:syntax error, unexpected ';', expecting function (T_FUNCTION) or const (T_CONST)|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\models\admin\Product.php| Строка:41 
+==========
