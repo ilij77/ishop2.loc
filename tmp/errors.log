@@ -1474,3 +1474,147 @@
 [2019-01-11 00:24:35] Текст ошибки:Метод app\controllers\admin\ProductController::addAction  не найден|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:45 
 ==========
+[2019-01-11 01:48:10] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-11 01:50:36] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-11 01:51:01] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-11 01:51:06] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-11 01:51:42] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-11 01:52:34] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-11 01:52:38] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-11 01:53:00] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-11 01:53:32] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-11 01:53:57] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-11 02:11:32] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-11 02:11:57] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-11 02:16:43] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-11 02:17:10] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-11 02:28:35] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-11 02:28:47] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-11 02:31:32] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-11 02:31:43] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-11 02:37:24] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-11 02:38:25] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-11 02:40:02] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-11 02:40:32] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-11 02:41:44] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-11 02:44:40] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:53 
+==========
+[2019-01-11 02:46:14] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-11 02:46:18] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-11 02:46:26] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-11 02:51:59] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-11 02:52:22] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-11 02:55:07] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-11 02:55:26] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-11 02:58:13] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-11 02:58:16] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-11 02:58:19] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-11 03:02:54] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-11 03:06:07] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 00:31:40] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 00:32:21] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 00:37:28] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 00:37:37] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 00:43:07] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 00:43:23] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 00:43:27] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 00:49:22] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 00:53:17] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 00:53:26] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 00:55:30] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 01:02:21] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========

@@ -399,6 +399,8 @@
     <script src="/js/validator.js"></script>
     <!-- AdminLTE App -->
     <script src="dist/js/adminlte.min.js"></script>
+    <script src="bower_components/ckeditor/ckeditor.js"></script>
+
     <script src="my.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
