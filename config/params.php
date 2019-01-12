@@ -9,4 +9,9 @@ return[
     'smtp_host'=>'smtp.gmail.com',
     'smtp_port'=>'465',
     'smtp_protocol'=>'ssl',
+    'img_width'=>125,
+    'img_height'=>200,
+    'gallery_wight'=>700,
+    'gallery_height'=>1000,
+
 ];

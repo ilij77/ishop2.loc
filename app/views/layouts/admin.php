@@ -395,6 +395,7 @@
 
 <<!-- jQuery 3 -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/js/ajaxupload.js"></script>
     <!-- Bootstrap 3.3.7 -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/js/validator.js"></script>
