@@ -36,6 +36,39 @@ class Product extends AppModel
 
         ],
     ];
+
+    public function editRelatedProduct($id,$data){
+        $related_product=\RedBeanPHP\R::getCol('SELECT related_id FROM related_product WHERE product_id=?',[$id]);
+
+        if (empty($data['related'])&&!empty($related_product)){
+            \RedBeanPHP\R::exec("DELETE FROM related_product WHERE product_id=?",[$id]);
+            return;
+        }
+        if (empty($related_product)&&!empty($data['related'])){
+            $sql_part='';
+            foreach ($data['related'] as $v){
+                $sql_part.="($id,$v),";
+            }
+            $sql_part=rtrim($sql_part,',');
+            \RedBeanPHP\R::exec("INSERT INTO related_product (product_id, related_id) VALUES $sql_part");
+            return;
+        }
+
+        if (!empty($data['related'])){
+            $result=array_diff($related_product,$data['related']);
+            if (!empty($result)||count($related_product)!=count($data['related'])){
+                \RedBeanPHP\R::exec("DELETE FROM related_product WHERE product_id=?",[$id]);
+                $sql_part='';
+                foreach ($data['related'] as $v){
+                    $sql_part.="($id,$v),";
+                }
+                $sql_part=rtrim($sql_part,',');
+                \RedBeanPHP\R::exec("INSERT INTO related_product (product_id, related_id) VALUES $sql_part");
+                return;
+            }
+        }
+    }
+
     public function editFilter($id,$data){
         $filter=\RedBeanPHP\R::getCol('SELECT attr_id FROM attribute_product WHERE product_id=?',[$id]);
 

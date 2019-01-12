@@ -48,6 +48,8 @@ $this->set(compact('products','pagination','count'));
                $p->alias=$alias;
                \RedBeanPHP\R::store($p);
                $product->editFilter($id,$data);
+               $product->editRelatedProduct($id,$data);
+               //debug($data,true);
 
                 $_SESSION['success']='Товар успешно добавлен';
                 redirect();
@@ -73,5 +75,6 @@ $this->set(compact('products','pagination','count'));
  echo json_encode($data);
         die;
     }
+
 
 }
