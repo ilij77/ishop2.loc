@@ -1645,3 +1645,78 @@
 [2019-01-12 02:09:04] Текст ошибки:syntax error, unexpected ';', expecting function (T_FUNCTION) or const (T_CONST)|
          Файл: C:\OSPanel\domains\ishop2.loc\app\models\admin\Product.php| Строка:41 
 ==========
+[2019-01-12 16:57:03] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-12 17:40:20] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:40:22] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:40:23] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:40:25] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:40:27] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:40:27] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:40:29] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:40:37] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:40:38] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:40:40] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:40:47] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:40:48] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:40:50] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:41:43] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:41:43] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:43:32] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:43:37] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:43:39] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:44:28] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:44:29] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:44:31] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:44:36] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:44:39] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-12 17:45:13] Текст ошибки:Метод app\controllers\admin\ProductController::relatedProductAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
