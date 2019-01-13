@@ -22,8 +22,14 @@ class AppModel extends Model
         }
     }
 
-    public function save($table){
-        $tbl=\RedBeanPHP\R::dispense($table);
+    public function save($table,$valid=true){
+
+        if ($valid){
+            $tbl=\RedBeanPHP\R::dispense($table);
+        }else{
+            $tbl=\RedBeanPHP\R::xdispense($table);
+        }
+
         foreach ($this->attributes as $name=>$value ){
             $tbl->$name=$value;
         }

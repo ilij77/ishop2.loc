@@ -29,7 +29,9 @@ protected function __construct()
     if (DEBUG){
 \RedBeanPHP\R::debug(true,1);
     }
-
+\RedBeanPHP\R::ext('xdispense',function ($type){
+    return \RedBeanPHP\R::getRedBean()->dispense($type);
+});
 
 }
 }

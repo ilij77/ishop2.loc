@@ -1813,3 +1813,15 @@
 [2019-01-13 14:57:46] Текст ошибки:Страница не найдена|
          Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\AppController.php| Строка:38 
 ==========
+[2019-01-13 16:36:27] Текст ошибки:Invalid type: attribute_group|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Util\DispenseHelper.php| Строка:77 
+==========
+[2019-01-13 16:46:02] Текст ошибки:Plugin 'xdispense' does not exist, add this plugin using: R::ext('xdispense')|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php| Строка:2903 
+==========
+[2019-01-13 16:47:55] Текст ошибки:Invalid type: attribute_group|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Util\DispenseHelper.php| Строка:77 
+==========
+[2019-01-13 16:48:33] Текст ошибки:Plugin 'xdispense' does not exist, add this plugin using: R::ext('xdispense')|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php| Строка:2903 
+==========
