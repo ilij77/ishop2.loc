@@ -5,7 +5,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="<?=ADMIN;?>"><i class="fa fa-dashboard"></i> Главная</a></li>
-        <li><a href="<?=ADMIN?>/filter/attribute-group">Список фильтров</a></li>
+        <li><a href="<?=ADMIN?>/filter/attribute">Список фильтров</a></li>
         <li class="active">Редактирование фильтра</li>
     </ol>
 </section>

@@ -27,6 +27,16 @@ class FilterController extends AppController
     }
 
 
+    public function attributeDeleteAction(){
+        $id=$this->getRequestID();
+        \RedBeanPHP\R::exec('DELETE FROM attribute_product WHERE attr_id=?',[$id]);
+        \RedBeanPHP\R::exec('DELETE FROM attribute_value WHERE id=?',[$id]);
+        $_SESSION['success']='Фильтр успешно удален';
+        redirect();
+
+    }
+
+
     public function groupEditAction(){
         if (!empty($_POST)){
             $id=$this->getRequestID(false);
