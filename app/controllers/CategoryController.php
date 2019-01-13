@@ -61,7 +61,7 @@ class CategoryController extends AppController
         $start=$pagination->getStart();
         //echo $pagination;
 
-        $products=\RedBeanPHP\R::findAll('product',"category_id IN ($ids) $sql_part LIMIT $start,$perpage");
+        $products=\RedBeanPHP\R::findAll('product',"status='1' AND category_id IN ($ids) $sql_part LIMIT $start,$perpage");
         //debug($products);
 
         if ($this->isAjax()){

@@ -16,7 +16,7 @@ class SearchController extends AppController
         if ($this->isAjax()){
             $query=!empty(trim($_GET['query'])) ? trim($_GET['query']) : null;
             if ($query){
-                $products=\RedBeanPHP\R::getAll('SELECT id,title FROM product WHERE  title LIKE ? LIMIT 11',["%{$query}%"]);
+                $products=\RedBeanPHP\R::getAll("SELECT id,title FROM product WHERE  title LIKE ? AND status='1' LIMIT 11",["%{$query}%"]);
                 echo  json_encode($products);
             }
         }die;
@@ -28,7 +28,7 @@ class SearchController extends AppController
 
             $query=!empty(trim($_GET['s'])) ? trim($_GET['s']) : null;
             if ($query){
-            $products=\RedBeanPHP\R::find('product', "title LIKE ?",["%{$query}%"]);
+            $products=\RedBeanPHP\R::find('product', "title LIKE ? AND status='1'",["%{$query}%"]);
             }
 
             $this->setMeta('Поиск по:'.h($query));
