@@ -1825,3 +1825,12 @@
 [2019-01-13 16:48:33] Текст ошибки:Plugin 'xdispense' does not exist, add this plugin using: R::ext('xdispense')|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php| Строка:2903 
 ==========
+[2019-01-13 16:58:19] Текст ошибки:Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Filter/attribute.php|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php| Строка:54 
+==========
+[2019-01-13 17:17:13] Текст ошибки:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'attr_group_id.id' in 'on clause'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-13 17:17:31] Текст ошибки:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'attr_group.id' in 'on clause'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========

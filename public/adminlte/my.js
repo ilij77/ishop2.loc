@@ -131,3 +131,14 @@ if ($('div').is('#multi')) {
     });
 }
 }
+
+$('#add').on('submit',function () {
+if(!isNumeric($('#category_id').val() )){
+    alert('Выберите категорию');
+    return false;
+}
+});
+
+function isNumeric(n) {
+    return !isNaN(parseFloat(n))&&isFinite(n);
+}

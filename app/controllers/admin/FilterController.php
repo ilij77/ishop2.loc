@@ -9,6 +9,7 @@
 namespace app\controllers\admin;
 
 
+use app\models\admin\FilterAttr;
 use app\models\admin\FilterGroup;
 
 class FilterController extends AppController
@@ -49,7 +50,32 @@ class FilterController extends AppController
 
     }
     public function attributeAction(){
+$attrs=\RedBeanPHP\R::getAssoc("SELECT attribute_value.*,attribute_group.title FROM
+attribute_value JOIN attribute_group ON attribute_group.id=attribute_value.attr_group_id");
+$this->setMeta('Фильтры');
 
+//debug($attrs);
+$this->set(compact('attrs'));
     }
+    public function attributeAddAction(){
+        if (!empty($_POST)){
+            $attr=new FilterAttr();
+            $data=$_POST;
+            $attr->load($data);
+            if (!$attr->validate($data)){
+                $attr->getErrors();
+                redirect();
+            }
+             if ($attr->save('attribute_value',false)){
+            $_SESSION['success']='Фильтр успешно добавлена';
+            redirect();
+
+       }
+    }
+        $group=\RedBeanPHP\R::findAll('attribute_group');
+        $this->set(compact('group'));
+        $this->setMeta('Новый фильтр');
+
+}
 
 }
