@@ -1849,3 +1849,12 @@
 [2019-01-14 01:30:17] Текст ошибки:SQLSTATE[42S22]: Column not found: 1054 Unknown column 'symbil_left' in 'field list'|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
 ==========
+[2019-01-14 01:36:28] Текст ошибки:Метод app\controllers\admin\CurrencyController::editAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-14 01:38:48] Текст ошибки:Class 'R' not found|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\CurrencyController.php| Строка:68 
+==========
+[2019-01-14 01:40:13] Текст ошибки:Class 'R' not found|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\CurrencyController.php| Строка:44 
+==========
