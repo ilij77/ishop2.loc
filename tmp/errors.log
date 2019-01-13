@@ -1810,3 +1810,6 @@
 [2019-01-13 13:59:09] Текст ошибки:syntax error, unexpected ':', expecting ';'|
          Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:150 
 ==========
+[2019-01-13 14:57:46] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\AppController.php| Строка:38 
+==========
