@@ -26,6 +26,30 @@ class FilterController extends AppController
         redirect();
     }
 
+
+    public function groupEditAction(){
+        if (!empty($_POST)){
+            $id=$this->getRequestID(false);
+            $group=new FilterGroup();
+            $data=$_POST;
+            $group->load($data);
+            if (!$group->validate($data)){
+                $group->getErrors();
+                redirect();
+            }
+            if ($group->update('attribute_group',$id));
+            $_SESSION['success']='Изменения сохранены';
+            redirect();
+
+        }
+        $id=$this->getRequestID();
+        $group=\RedBeanPHP\R::load('attribute_group',$id);
+        $this->setMeta("Редактирование группы{$group->title}");
+        $this->set(compact('group'));
+    }
+
+
+
     public function groupAddAction(){
         if (!empty($_POST)){
             $group=new FilterGroup();
@@ -57,6 +81,33 @@ $this->setMeta('Фильтры');
 //debug($attrs);
 $this->set(compact('attrs'));
     }
+
+    public function attributeEditAction(){
+
+        if (!empty($_POST)){
+            $id=$this->getRequestID(false);
+            $attr=new FilterAttr();
+            $data=$_POST;
+            $attr->load($data);
+            if (!$attr->validate($data)){
+                $attr->getErrors();
+                redirect();
+            }
+            if ($attr->update('attribute_value',$id)){
+                $_SESSION['success']='Атрибут изменен';
+                redirect();
+
+            }
+        }
+        $id=$this->getRequestID();
+
+        $attr=\RedBeanPHP\R::load('attribute_value',$id);
+        $attrs_group=\RedBeanPHP\R::findAll('attribute_group');
+        $this->set(compact('attr','attrs_group'));
+        $this->setMeta('Редактирование атрибута');
+    }
+
+
     public function attributeAddAction(){
         if (!empty($_POST)){
             $attr=new FilterAttr();
