@@ -97,15 +97,22 @@
 
                         <div class="form-group ">
                             <label >
-                                <input type="checkbox" name="hit"<?= $product->hit:php_strip_whitespace() ?>; > Хит
+                                <input type="checkbox" name="hit"<?= $product->hit?'checked':null;?> > Хит
                             </label>
 
                         </div>
                         <div class="form-group">
                             <label for="related">Связанные товары</label>
-                            <select name="related[]" class="form-control select2" id="related" multiple></select>
+                            <select name="related[]" class="form-control select2" id="related" multiple>
+                                <?php if (!empty($related_product)): ?>
+                                <?php foreach ($related_product as $item): ?>
+                                        <option value="<?= $item['related_id']; ?>" selected><?= $item['title']; ?></option>
+
+                                <?php endforeach; ?>
+                                <?php endif; ?>
+                            </select>
                         </div>
-                        <?php new \app\widgets\filter\Filter(null,WWW.'/filter/admin_filter_tpl.php');?>
+                        <?php new \app\widgets\filter\Filter($filter,WWW.'/filter/admin_filter_tpl.php');?>
                         <div class="form-group">
                             <div class="col-md-4">
                                 <div class="box box-danger box-solid file-upload">
@@ -115,7 +122,11 @@
                                     <div class="box-body">
                                         <div id="single" class="btn btn-success" data-url="product/add-image" data-name="single">Выберете файл</div>
                                         <p> <small>Рекомендуемые размеры:125х200</small></p>
-                                        <div class="single"></div>
+                                        <div class="single">
+                                            <img src="/images/<?= $product->img ;?>" alt="" style="max-height: 150px">
+
+
+                                        </div>
                                     </div>
                                     <div class="overlay">
                                         <i class="fa fa-refresh fa-spin"></i>
@@ -131,7 +142,14 @@
                                         <div id="multi" class="btn btn-success"
                                              data-url="product/add-image" data-name="multi">Выберете файл</div>
                                         <p> <small>Рекомендуемые размеры:700x1000</small></p>
-                                        <div class="multi"></div>
+                                        <div class="multi">
+                                            <?php if (!empty($gallery)):?>
+                                            <?php foreach ($gallery as $item):?>
+                                                    <img src="/images/<?= $item ;?>" alt="" style="max-height: 150px; cursor: pointer;"
+                                                         data-id="<?=$product->id;?>"data-src="<?=$item;?>" class="del-item" >
+                                            <?php endforeach;?>
+                                            <?php endif;?>
+                                        </div>
 
                                         <?php  if (!empty($g)) ?>
                                     </div>
@@ -142,22 +160,17 @@
 
                             </div>
                         </div>
+                    </div>
 
 
                         <div class="box-footer">
-                            <button type="submit" class="btn btn-success">Добавить</button>
+                            <input type="hidden"name="id" value="<?=$product->id;?>">
+                            <button type="submit" class="btn btn-success">Сохранить</button>
                         </div>
-                    </div>
+
                 </form>
-                <?php if (isset($_SESSION['form_data'])) unset($_SESSION['form_data']); ?>
 
-
-
-
-
-
-
-
+            </div>
             </div>
 
 

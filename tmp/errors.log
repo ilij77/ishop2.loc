@@ -1786,3 +1786,27 @@
 [2019-01-13 05:21:12] Текст ошибки:syntax error, unexpected ';', expecting ',' or ')'|
          Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:65 
 ==========
+[2019-01-13 13:07:42] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-13 13:08:24] Текст ошибки:syntax error, unexpected ':', expecting ',' or ';'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:100 
+==========
+[2019-01-13 13:10:15] Текст ошибки:syntax error, unexpected ':', expecting ',' or ';'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:100 
+==========
+[2019-01-13 13:10:20] Текст ошибки:syntax error, unexpected ':', expecting ',' or ';'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:100 
+==========
+[2019-01-13 13:11:02] Текст ошибки:syntax error, unexpected ':', expecting ',' or ';'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:100 
+==========
+[2019-01-13 13:11:14] Текст ошибки:syntax error, unexpected '?>'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:100 
+==========
+[2019-01-13 13:58:46] Текст ошибки:syntax error, unexpected ':', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:150 
+==========
+[2019-01-13 13:59:09] Текст ошибки:syntax error, unexpected ':', expecting ';'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:150 
+==========
