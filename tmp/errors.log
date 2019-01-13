@@ -1759,3 +1759,30 @@
 [2019-01-13 04:11:19] Текст ошибки:Class 'R' not found|
          Файл: C:\OSPanel\domains\ishop2.loc\app\models\admin\Product.php| Строка:54 
 ==========
+[2019-01-13 04:34:15] Текст ошибки:Метод app\controllers\admin\ProductController::editAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-13 05:08:26] Текст ошибки:syntax error, unexpected ';', expecting ',' or ')'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:25 
+==========
+[2019-01-13 05:08:46] Текст ошибки:syntax error, unexpected ';', expecting ',' or ')'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:25 
+==========
+[2019-01-13 05:13:50] Текст ошибки:syntax error, unexpected ']', expecting ',' or ')'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:50 
+==========
+[2019-01-13 05:20:17] Текст ошибки:syntax error, unexpected ';', expecting ',' or ')'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:57 
+==========
+[2019-01-13 05:20:37] Текст ошибки:syntax error, unexpected ';', expecting ',' or ')'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:57 
+==========
+[2019-01-13 05:20:43] Текст ошибки:syntax error, unexpected ';', expecting ',' or ')'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:57 
+==========
+[2019-01-13 05:21:08] Текст ошибки:syntax error, unexpected ';', expecting ',' or ')'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:65 
+==========
+[2019-01-13 05:21:12] Текст ошибки:syntax error, unexpected ';', expecting ',' or ')'|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\edit.php| Строка:65 
+==========
