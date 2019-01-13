@@ -11,7 +11,7 @@ return[
     'smtp_protocol'=>'ssl',
     'img_width'=>125,
     'img_height'=>200,
-    'gallery_wight'=>700,
-    'gallery_height'=>1000,
+    'gallery_width'=>125,
+    'gallery_height'=>200,
 
 ];

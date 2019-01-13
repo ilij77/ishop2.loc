@@ -1723,3 +1723,39 @@
 [2019-01-13 01:16:10] Текст ошибки:Страница не найдена|
          Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
 ==========
+[2019-01-13 02:34:53] Текст ошибки:Метод app\controllers\admin\ProductController::addImageAction не найден|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:33 
+==========
+[2019-01-13 03:48:42] Текст ошибки:SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '('6d8f576ee9cdb35c7736fa7e9ec364df.jpg',52)' at line 1|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-13 03:50:55] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-13 03:52:33] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-13 03:55:39] Текст ошибки:SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'Выберите категорию' for column 'category_id' at row 1|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-13 03:56:38] Текст ошибки:SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '('77712bd77db5dcad8d56ce612494b16f.jpg',56)' at line 1|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-13 04:01:58] Текст ошибки:Страница не найдена|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php| Строка:39 
+==========
+[2019-01-13 04:02:56] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-13 04:04:36] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-13 04:06:10] Текст ошибки:SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias'|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-13 04:07:35] Текст ошибки:SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '('5b0e886ef82da243794db3de458ee680.jpg',60)' at line 1|
+         Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php| Строка:188 
+==========
+[2019-01-13 04:11:19] Текст ошибки:Class 'R' not found|
+         Файл: C:\OSPanel\domains\ishop2.loc\app\models\admin\Product.php| Строка:54 
+==========
